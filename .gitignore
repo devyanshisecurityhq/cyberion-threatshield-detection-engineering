@@ -1,0 +1,15 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local analyst workspace files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep bundled, pinned EVTX dataset for reproducibility. Do not commit a .git clone.
+data/raw/evtx-attack-samples/.git/

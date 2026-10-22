@@ -1,0 +1,6 @@
+# Tested interface: python-evtx's Evtx.Evtx API, PyYAML, pytest and Sigma CLI.
+python-evtx==0.8.1
+PyYAML>=6.0,<7.0
+pytest>=8.0,<10.0
+sigma-cli==3.1.0
+python-pptx>=0.6.23,<2.0
